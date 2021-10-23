@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <div>
+        <nav style="display: flex; border-style: solid;">
+            <ul style="display: flex; list-style: none; margin: 0px;">
+                <li style=" margin: 2px; margin-right: 190px; margin-left: -30px;">Home <b>|</b></li>
+                <li style=" margin: 2px; margin-right: 190px;">Generate Link <b>|</b></li>
+                <li style=" margin: 2px; margin-right: 190px;">Transaction History <b>|</b></li> 
+                <li style=" margin: 2px; margin-right: 210px;">Policy <b>|</b></li> 
+                <li style=" margin: 2px; margin-right: 100px;">Log Out</li>
+            </ul>
+        </nav>
+    </div>
+    <div style="margin-top: 20px;">
+        <main style="float: left;">
+            <img src="image/Kotak.jpg" alt="Upload Image" width="300px">
+            <br>
+            <button style="margin-top: 10px;">Upload Image</button>
+        </main>
+    </div>
+    <div>
+        <aside>
+        <form action="" method="post">
+                <label for="title" style="margin-left: 10px;">Title Here :</label>
+                <input type="text" id="title" value="ASUS ROG Zephyrus S GX701">
+                    <br><br>
+                <label for="description" style="margin-left: 10px;">Description :</label>
+                <textarea name="massage" id="description" cols="30" rows="8">Yaer : 
+                    Spesification :          
+                </textarea>
+                    <br><br>
+                <label for="number" style="margin-left: 10px;">Account Number :</label>
+                <input type="text" id="number" value="178.91.252">
+                    <br><br>
+                <label for="bank" style="margin-left: 10px;">Bank :</label>
+                <input type="text" list="bank" name="databank" value="BNI">
+                <datalist  id="bank">
+                    <option value="BNI"></option>
+                    <option value="BCA"></option>
+                    <option value="BRI"></option>
+                </datalist>
+                    <br><br>
+                <label for="holder" style="margin-left: 10px;">Account Holder :</label>
+                <input type="text" id="holder" value="Name Here">
+                    <br><br>
+                <label for="amount" style="margin-left: 10px;">Transaction</label>
+                <input type="number" id="amount" value="1">
+                <p style="margin-top: 2px; margin-left: 90px;">*if the transaction is for 3 person, choose 3 from drop-down list</p>
+            <div style="color: green;">
+                <input type="checkbox" id="link1" name="link1" value="Mobile Phone" style="margin-left: 400px;">
+                <label for="link1">Send to Mobile Phone</label>
+                    <br>
+                <input type="checkbox" id="link2" name="link2" value="Email" style="margin-left: 400px;">
+                <label for="link2">Send to Email</label>
+            </div>
+                    <br>
+                <label for="phone" style="margin-left: 310px;">Send to Mobile Phone</label>
+                <input type="tel" id="phone" name="phone">
+                    <br><br>
+                <label for="email" style="margin-left: 310px;">Send to Email</label>
+                <input type="email" id="email" name="email">
+                    <br><br><br>
+                    <button style="margin-left: 310px;">Clik Here</button>
+        </form>
+        </aside>
+    </div>
+</body>
+</html>

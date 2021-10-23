@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body style="max-width: 3000px; border: 2px solid rgb(0, 0, 0);">
+    <form action="/xampp/htdocs/pemweb1/praktikum/checkout_0110121224_rasyid.html" method="get">
+    <div style="block-size: 70px;"> 
+        <nav style="background-color: rgba(209, 209, 209, 0.981); display: flex; border-style: solid; border-width: 1px;">
+            <ul style="display: flex; list-style-type: square; align-self: center;">
+                <li>Berkah Toko</li>     
+            </ul>
+            <ul style="display: flex; list-style-type: none;">
+                <li style="align-self: center;">
+                    <a href="#">Kategori 1</a> |
+                    <a href="#">Kategori 2</a> |
+                    <a href="#">Kategori 3</a> 
+                </li>
+            </ul>
+            <ul style="margin-left: 800px; list-style-type: none;">
+                <li style="display: flex; gap: 5px; align-items: center;">  
+                  <img src="image/Ikon Search.jpg" width="20px"> 
+                  <img src="image/Ikon Keranjang.jpg" width="20px"> 
+                  <p style="display: flex;">Cart</p>
+               </li> 
+            </ul>
+        </nav>
+    </div>
+    <div style="display: flex; gap: 15px; margin-top: 30px; padding: 10px;">
+        <main style="width: 80%;">
+            <h2>Keranjang Anda</h2>
+        <table style="width: 100%; border-collapse: collapse; width: 1000px;">
+            <thead style="max-block-size: 50px;">
+                <tr>
+                    <td style="border-top: 1px solid lawngreen; border-bottom: 1px solid lawngreen;">Barang</td>
+                    <td style="border-top: 1px solid lawngreen; border-bottom: 1px solid lawngreen;">Harga</td>
+                    <td style="border-top: 1px solid lawngreen; border-bottom: 1px solid lawngreen;">Jumlah</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="display: flex; align-items: center; margin: 10px; ">
+                        <img src="image/produk.jpg" alt="" width="75">
+                        <p style="margin-left: 70px;">Hoodie</p>
+                        <p style="margin-left: 70px;">size small</p>
+                    </td>
+                    <td><b>Rp100.000</b></td>
+                    <td>
+                        <select name="jumlah" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td style="border-top: 1px solid lawngreen; border-bottom: 1px solid lawngreen; text-align: right;" colspan="3">Sub Total Rp100.000</td>
+                </tr>
+            </tfoot>
+        </table>
+        </main>
+        <aside style="margin-left: 0px; background-color: rgba(146, 145, 145, 0.357);">
+            <h2>Summary</h2>
+            <table>
+                <tr>
+                    <td>Sub Total</td>
+                    <td>Rp100.000</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Est. Toxes</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>____________</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rp100.000</td>
+                </tr>
+                <tr>
+                    <td><button>Checkout</button></td>
+                </tr>
+            </table>
+        </aside>
+    </div>
+    <div style="background-color: rgba(209, 209, 209, 0.981);">
+        <nav style="background-color: rgba(209, 209, 209, 0.981); display: flex; border-style: solid; border-width: 1px;">
+            <ul style="display: flex; list-style-type: none; align-self: center;">
+                <li style="margin-top: -10px;">Berkah Toko</li>
+                <li style="margin-top: 10px; margin-bottom: -30px; margin-left: -70px;">
+                    <img src="image/Visa.png" alt="" width="20px">
+                    <img src="image/mastercard.png" alt="" width="20px">
+                </li>     
+            </ul>
+            <ul style="display: flex; list-style-type: none;">
+                <li style="align-self: center; margin-left: 30px;">
+                    <a href="">Kategori 1</a> |
+                    <a href="">Kategori 2</a> |
+                    <a href="">Kategori 3</a> 
+                </li>
+            </ul>
+            <ul style="margin-left: auto; list-style-type: none;">
+                <li style="display: flex;">
+                    <input type="text" placeholder="enter email" style="margin: 20px;">
+                    <input type="submit" value="Kirim" style="margin: 20px; margin-left: -30px;">
+               </li> 
+            </ul>
+        </nav>
+    </div>
+    </form> 
+</body>
+</html>
