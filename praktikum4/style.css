@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    margin-left: 150px;
+    margin-top: -50px;
+    gap: 200px;
+}
+.profile li {
+    list-style: none;
+}
+.profile .list1 {
+    padding-top: 0%;
+}
+.profile .list2 {
+    margin-top: 30px;
+    margin-left: 550px;
+}
+.media {
+    display: flex;
+}
+.media .ikon {
+    margin-left: 230px;
+}
+.link {
+    margin-left: 300px;
+}
