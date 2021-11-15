@@ -1,0 +1,36 @@
+.box .box1 {
+    background-color: rgb(45, 168, 45); 
+    width: 90%; height: 100px;
+    margin: 30px; margin-left: 70px;
+    border: 2px solid black;
+}
+.box .box2 {
+    background-color: rgb(206, 218, 47); 
+    width: 200px; height: 200px; 
+    float: left; margin-left: 70px;
+    border: 2px solid black;
+}
+.box .box3 {
+    background-color: rgb(230, 93, 15); 
+    width: 950px; height: 200px;
+    float: right; margin-right: 60px;
+    border: 2px solid black;
+}
+.box .box4 {
+    background-color: rgb(206, 218, 47); 
+    width: 200px; height: 200px;
+    float: left; 
+    position: absolute;
+    top: 60%;
+    left: 80px;
+    border: 2px solid black;
+}
+.box .box5 {
+    background-color: rgb(31, 133, 216); 
+    width: 950px; height: 200px;
+    float: right;
+    position: absolute;
+    top: 60%;
+    right: 67px;
+    border: 2px solid black; 
+}
