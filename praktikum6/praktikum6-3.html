@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.3</title>
+    <style>
+        .content {
+            background: pink;
+            position: relative;
+        }
+        .content .text {
+            margin: 10px;
+        }
+        .content .top {
+            position: absolute;
+            width: 1310px; height: 50px;
+            background-color: rgb(109, 193, 196);
+            right: 20px; left: 20px;
+            top: 20px;
+        }
+        .content .sidebar {
+            position: absolute;
+            width: 300px; height: 460px;
+            background-color: rgb(69, 159, 175);
+            float: left;
+            left: 20px; top: 90px;
+        }
+        .content .main {
+            position: absolute;
+            width: 980px; height: 460px;
+            background-color: palevioletred;
+            float: right;
+            right: 20px; top: 90px;
+        }
+        .content .main .pic1 {
+            width: 250px;
+            margin-left: 40px; margin-right: 75px;
+            margin-top: 130px;
+            float: left;
+        }
+        .content .main .pic2 {
+            width: 250px;
+            margin-top: 130px;
+        }
+        .content .main .pic3 {
+            width: 250px;
+            margin-top: 130px;
+            float: right;
+            margin-right: 40px;
+        }
+        .content .bot {
+            position: absolute;
+            width: 1310px; height: 50px;
+            background-color: rgb(109, 193, 196);
+            right: 20px; left: 20px;
+            top: 575px;
+        }
+    </style>
+</head>
+<body style="background: pink;">
+    <div class="content">
+        <div class="top"><p class="text">Header</p></div>
+        <div class="sidebar"><p class="text">Aside</p></div>
+        <div class="main">
+            <p class="text">Article</p>
+            <img class="pic1" src="https://cdn.discordapp.com/attachments/758170381113884722/914906167933808651/0.jpg" alt="R">
+            <img class="pic2" src="https://cdn.discordapp.com/attachments/758170381113884722/914906168202231828/1.jpg" alt="A">
+            <img class="pic3" src="https://cdn.discordapp.com/attachments/758170381113884722/914906168420364328/2.jpg" alt="M">
+        </div>
+        <div class="bot"><p class="text">Footer</p></div>
+    </div>
+</body>
+</html>
