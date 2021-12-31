@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Kurs</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <input type="number" class="input">
+        <select class="kurs">
+            <option value="usd">USD - 9.915</option>
+            <option value="sgd">SGD - 13.472</option>
+            <option value="myr">MYR - 874</option>
+            <option value="jpy">JPY - 120</option>
+            <option value="eur">EUR - 15.888</option>
+            <option value="sar">SAR - 3.592</option>
+        </select>
+        <span class="hasil">Hasil :</span><br>
+        <button class="hitung">Hitung</button>
+    </fieldset>
+    <script>
+        const input = document.querySelector(".input");
+        const kursSelect = document.querySelector(".kurs");
+        const hasil = document.querySelector(".hasil"); 
+        const hitungBtn = document.querySelector(".hitung");
+        
+        hitungBtn.addEventListener("click", function() {
+            console.log("hasil hitungan");
+            if (kursSelect.value == "usd") {
+                hasil.innerHTML = "Rp" + input.value * 9915;
+            }
+            else if (kursSelect.value == "sgd") {
+                hasil.innerHTML = "Rp" + input.value * 13472;
+            }
+            else if (kursSelect.value == "myr") {
+                hasil.innerHTML = "Rp" + input.value * 874;
+            }
+            else if (kursSelect.value == "jpy") {
+                hasil.innerHTML = "Rp" + input.value * 120;
+            }
+            else if (kursSelect.value == "eur") {
+                hasil.innerHTML = "Rp" + input.value * 15888;
+            }
+            else if (kursSelect.value == "sar") {
+                hasil.innerHTML = "Rp" + input.value * 3592;
+            }
+        })
+    </script>
+</body>
+</html>
